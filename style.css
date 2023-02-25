@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+#logo{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#logo img{
+    
+    height: 65px;
+    margin: 30px 30px;
+}
+
+#navbar ul{
+    display: flex;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.welcomecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fa%2F9%2F0%2F115705-new-wood-texture-background-1920x1200.jpg&f=1&nofb=1&ipt=119c278e66defb1a52e2368f46ed8b2370a876044d84812826d457bb0a63cde2&ipo=images) no-repeat center center/cover;
+    
+}
+.welcomecard h1{
+    color: lightcyan;    
+    font-family: 'Zeyada', cursive;
+   
+}
+.h-primary{
+    font-size: 2.8rem;
+    text-shadow: 20px -3px 17px rgb(34, 33, 32), -3px -320px 17px rgb(156, 117, 43);
+}
+
+.welcomecard article{
+    
+    
+    padding: 3px 200px;
+    margin: 12px;
+    
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Bitter', serif;
+    color: rgb(243, 243, 243);
+
+}
+
+.explore{
+    padding: 3px 14px;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 2px white;
+    cursor: pointer;
+    
+}
+
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+.center{
+    text-align: center;
+}
+
+#catalog{
+    display: flex;
+    margin: 34px;
+}
+
+#catalog .box{
+    border: 2px rgb(94, 8, 94);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 20px;
+    background: #6a6a6a;  
+}
+
+#catalog .box img{
+    height: 190px;
+    margin: auto;
+    display: block;
+}
+
+.occations{
+    background: rgb(70, 46, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.occations img{
+    border-radius: 12px;
+    margin: 15px 142px;
+    height: 316px;
+}
+
+.footer img{
+    height: 32px;
+    margin: 5px 5px;
+    padding: 9px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 13px;
+    padding: 3px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display:flex;
+    background: url(/about-us.jpg);
+    
+}
+
+#about-us{
+    display: block;
+    margin: 5px 5px;
+    padding: 5px;
+    background: rgb(134, 133, 133);
+    height: 179px;
+    align-self: center;
+    border-radius: 12px;
+}
+#about-us h3{
+    font-size: 1.89rem;
+    font-family: 'Bitter', serif;
+}
+
+
+
+#owner{
+    padding: 9px;
+    margin: auto;
+    display: flex;
+    align-items: center;  
+    background: rgb(134, 133, 133);  
+    border-radius: 12px;
+}
+
+#info article{
+    font-size: 1.2rem;
+    font-family: 'Bitter', serif;
+}
